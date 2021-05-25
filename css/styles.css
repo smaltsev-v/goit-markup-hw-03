@@ -218,9 +218,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--portfolio-secondary-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+ 
 .section-list-team {
   display: flex;
   flex-wrap: wrap;
