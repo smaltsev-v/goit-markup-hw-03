@@ -250,10 +250,12 @@ p {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
+}
+.staff-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .staff {
-  margin-bottom: 30px;
   display: block;
   max-width: 100%;
 }
