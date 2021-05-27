@@ -78,19 +78,17 @@ p {
 }
 /* site-nav */
 
-.site-nav :active {
-  color: var(--primaty-text-color);
-}
 .site-nav .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 .site-nav {
-  color: var(--title-text-color);
-  font-weight: 500;
   display: flex;
   margin-left: 93px;
+}
+.site-nav :active {
+  color: var(--primaty-text-color);
 }
 .site-nav :hover,
 .site-nav :focus {
@@ -106,6 +104,11 @@ p {
 }
 .link {
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 .link-contact:active {
   color: var(--accent-color);
