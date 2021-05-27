@@ -297,7 +297,6 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  padding-top: 9px;
 }
 
 .link-contact-footer:active {
@@ -311,9 +310,10 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  padding-top: 9px;
 }
-
+.contact-footer-list {
+  margin-top: 9px;
+}
 .address {
   color: var(--primary-bg-color);
   font-style: normal;
@@ -321,7 +321,7 @@ p {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 /* portfolio */
 .hidden-header {
