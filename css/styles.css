@@ -144,8 +144,6 @@ p {
 .hero {
   text-align: center;
   background-color: var(--background-color-secondary);
-
-  margin-bottom: 94px;
 }
 .hero-content {
   padding: 213px 287px;
