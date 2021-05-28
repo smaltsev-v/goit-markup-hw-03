@@ -215,8 +215,6 @@ p {
 /* team */
 
 .section-team {
-  margin-left: auto;
-  margin-right: auto;
   background-color: var(--portfolio-secondary-color);
 }
 .section-list-team {
@@ -278,6 +276,7 @@ p {
 .footer {
   background-color: var(--background-color-secondary);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-title-footer {
@@ -317,6 +316,9 @@ p {
 .contact-footer-list {
   margin-top: 9px;
 }
+.address-content {
+  margin-top: 20px;
+}
 .address {
   color: var(--primary-bg-color);
   font-style: normal;
@@ -324,7 +326,6 @@ p {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  margin-top: 20px;
 }
 /* portfolio */
 .header-portfolio {
